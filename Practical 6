@@ -1,0 +1,130 @@
+<html>
+
+<head>
+
+
+<title>Seminar Registration</title>
+
+</head>
+
+<body bgcolor="pink">
+
+<div class="container">
+
+<h1> Seminar Registration Form</h1>
+
+<form>
+
+<fieldset>
+
+<legend>Personal Details</legend>
+
+<label>Full Name</label> <br>
+
+<input type="text" placeholder="Enter your full name" required> <br>
+
+<label>Email Address</label> <br>
+
+<input type="email" placeholder="example@gmail.com"> <br>
+
+<label>Phone Number</label> <br>
+
+<input type="tel" placeholder="Enter phone number"> <br>
+
+<label>Date of Birth</label> <br>
+
+<input type="date"> <br>
+
+<label>City</label> <br>
+
+<input type="text" placeholder="Enter your city"> <br>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Gender</legend>
+
+<label><input type="radio" name="gender"> Male</label><br> <label><input type="radio" name="gender"> Female</label><br>
+
+<label><input type="radio" name="gender"> Other</label>
+
+</fieldset>
+<fieldset>
+
+<legend>Education Details</legend>
+
+<label>College Name</label>
+
+<input type="text" placeholder="Enter college name">
+
+<label>Course</label>
+
+<input type="text" placeholder="Enter your course">
+
+<label>Year</label>
+
+<select>
+
+<option>Select Year</option>
+
+<option>1st Year</option>
+
+<option>2nd Year</option>
+
+<option>3rd Year</option>
+
+<option>Final Year</option>
+
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Seminar Topics</legend>
+
+<label><input type="checkbox"> Artificial Intelligence</label><br>
+
+<label><input type="checkbox"> Machine Learning</label><br>
+
+<label><input type="checkbox"> Web Development</label><br>
+
+<label><input type="checkbox"> Cyber Security</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Select Seminar Date</legend>
+
+<select>
+
+<option>Select Date</option>
+
+<option>15 April 2026</option>
+
+<option>16 April 2026</option>
+
+<option>17 April 2026</option>
+
+</select>
+</fieldset>
+
+<fieldset>
+
+<legend>Additional Message</legend>
+
+<textarea rows="3" placeholder="write your message here"></textarea>
+
+</fieldset>
+
+<input type="button" name="Register Now" value="Register Now"><br>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
